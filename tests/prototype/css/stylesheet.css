@@ -1,0 +1,36 @@
+/* line 2, stylesheet.scss */
+iframe {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  display: inline-block;
+  margin: 20px; }
+  /* line 9, stylesheet.scss */
+  iframe.has-2-childs {
+    width: 600px; }
+
+/* line 14, stylesheet.scss */
+h1 {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-size: 13px; }
+
+/* line 22, stylesheet.scss */
+.main-doc {
+  background-color: #fcecc6; }
+
+/* line 26, stylesheet.scss */
+.child-doc {
+  background-color: #f9dc96; }
+  /* line 28, stylesheet.scss */
+  .child-doc iframe {
+    width: 200px;
+    height: 200px; }
+
+/* line 34, stylesheet.scss */
+.child-child-doc {
+  background-color: #f4c44e; }
+  /* line 36, stylesheet.scss */
+  .child-child-doc iframe {
+    width: 100px;
+    height: 100px; }

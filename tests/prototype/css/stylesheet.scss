@@ -1,0 +1,41 @@
+
+iframe {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #fff;
+  display: inline-block;
+  margin: 20px;
+
+  &.has-2-childs {
+    width: 600px;
+  }
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+$background: #B8860B;
+
+.main-doc {
+  background-color: lighten($background, 50%);
+}
+
+.child-doc {
+  background-color: lighten($background, 40%);
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.child-child-doc {
+  background-color: lighten($background, 25%);
+  iframe {
+    width: 100px;
+    height: 100px;
+  }
+
+}
